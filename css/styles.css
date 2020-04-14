@@ -1,0 +1,78 @@
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Indie Flower', cursive; */
+body {
+  background-color: #393E46;
+}
+
+.flex-container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin: 2rem;
+  text-align: center;
+  font-size: 6rem;
+  text-shadow: 10px 0 #232931;
+  color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.col1 {
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.col2 {
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.img {
+  transform: translatex(10%);
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.flex-container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.www {
+  margin-top: 30%;
+  font-size: 1rem;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
